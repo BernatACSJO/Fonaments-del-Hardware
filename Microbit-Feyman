@@ -1,0 +1,21 @@
+Ejercicio 1: ¿Para qué sirve el siguiente programa?¿Qué pasa si el valor es 3?
+
+import random
+valor = random.randint(1, 3)
+if valor == 1:
+print(&quot;1&quot;)
+elif valor == 2:
+print(&quot;2&quot;)
+else:
+print(&quot;X&quot;)
+
+Aquest exercici fa ques ens doni un valor aleatori entre 1 y 3.
+
+- La primera línea agrega una lliberiria anomenada random.
+- La segona línea cream una variable anomenada "valor" que guardi el numero aleatori entre 1 y 3.
+- La tercera línea fa un condicional que vol dir que si a sa variable "valor" es 1 (valor == 1), fara lo que posa a la seguent línea.
+- La cuarta línea mostra a pantalla el numero 1 si a la variable "valor " se ha guardat el numero 1 com a la línea de adalt.
+- La quinta línea fa un si anidado que si no posa en la variable "valor" 1 que posi 2 (valor == 2), i fara lo que posa la próxima línea.
+- La sexta línea mostrara a pantalla el numero 2 si a la variable "valor" se ha guardat el numero 2 com diu a la línea de adalt.
+- La séptima línea fa un else que vol dir que sino es 1 ni tampoc es 2, fara lo que posi a la darrera línea.
+- La darrera línea mostrara a pantalla una X, per la rao que es diu a la línea de adalt.
